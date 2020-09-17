@@ -1,8 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, Subject } from 'rxjs';
-// import { PokemonsComponent } from '../pages/pokemons/pokemons.component';
-// import { PokemonsComponent } from './../pages/pokemons/pokemons.component';
+
 
 
 export interface Item {
