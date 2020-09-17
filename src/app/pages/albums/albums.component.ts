@@ -1,14 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { AlbumsService }  from './../../services/albums.service';
-// import { MatDialog } from '@angular/material/dialog';
-// import { AddingFormComponent }  from './../modal/adding-form/adding-form.component';
 import { EditFormComponent } from './modal/edit-form/edit-form.component';
 import { faPen, faTrashAlt, faPlusCircle } from '@fortawesome/free-solid-svg-icons';
 import { MatDialog } from '@angular/material/dialog';
 import { ConfrimModalComponent } from './modal/confrim-modal/confrim-modal.component';
 import { AddingFormComponent } from './modal/adding-form/adding-form.component';
-
-
 
 
 @Component({
@@ -53,7 +49,7 @@ export class AlbumsComponent implements OnInit {
   }
 
   openEditForm = (album) => {
-    let dialogref = this.dialog.open(EditFormComponent)
+    this.dialog.open(EditFormComponent)
     EditFormComponent.item = album
   } 
 }

@@ -23,7 +23,6 @@ export class EditFormComponent implements OnInit {
     })
   }
 
-
   submit() {
     let data = this.form.value;
     let item = EditFormComponent.item;

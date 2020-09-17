@@ -5,11 +5,4 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './confrim-modal.component.html',
   styleUrls: ['./confrim-modal.component.scss']
 })
-export class ConfrimModalComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-}
+export class ConfrimModalComponent{ }
