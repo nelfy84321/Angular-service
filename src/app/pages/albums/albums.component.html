@@ -1,0 +1,37 @@
+<div class="header">
+    <div id="title">Albums</div>
+    <div><span (click)="openAddForm()" id="add"><fa-icon [icon]="faPlusCircle" id="add-icon"></fa-icon>Add</span></div>
+</div>
+<div class="columns-name">
+    <span class="name">Name</span>
+    <span class="band">Band</span>
+    <span class="genre">Genre</span>
+    <span class="label">Label</span>
+    <span class="producer">Producer</span>
+    <span class="buttons"></span>
+</div>
+
+<div *ngIf="!loading else spinerBlock">
+<div *ngFor="let item of albums" class="row">
+    <div class="name">{{item.payload.doc.data().name}}</div>
+    <div class="band">{{item.payload.doc.data().band}}</div>
+    <div class="genre">{{item.payload.doc.data().genre}}</div>
+    <div class="label">{{item.payload.doc.data().label}}</div>
+    <div class="producer">{{item.payload.doc.data().producer}}</div>
+    <div class="buttons">
+        <span (click)="openEditForm(item)"><fa-icon [icon]="faPen" id="pen-icon"></fa-icon></span>
+        <span (click)="deleteAlbum(item)"><fa-icon [icon]="faTrashAlt" id="trash-icon"></fa-icon></span>
+    </div>
+</div>
+</div>
+
+<ng-template #spinerBlock>
+    <div class="sk-chase">
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+      </div>
+</ng-template>

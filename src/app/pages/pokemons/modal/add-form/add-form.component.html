@@ -1,0 +1,23 @@
+<h2 mat-dialog-title>Adding a pokemon</h2>
+
+<form [formGroup]="form" (ngSubmit)="submit()">
+   <mat-dialog-content>
+    <input placeholder="Name"
+       formControlName="name"  
+       type="text" >
+    <input placeholder="Height" 
+       formControlName="height"
+       type="text">
+    <input placeholder="Weight" 
+       formControlName="weight"
+       type="text">
+    <input placeholder="Image url" 
+       formControlName="img"
+       type="text">
+</mat-dialog-content>          
+
+<mat-dialog-actions>
+   <button type="submit" mat-button mat-dialog-close mat-dialog-close="true">Add</button>
+   <button mat-button mat-dialog-close>Cancel</button>
+</mat-dialog-actions>
+</form>

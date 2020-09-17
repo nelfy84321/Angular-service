@@ -1,0 +1,17 @@
+.menu {
+    font-size: 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+
+    &:focus  {
+        outline: none;
+    }
+}
+
+.active {
+    color: rgb(184, 179, 179);
+
+    &:focus  {
+        outline: none;
+    }
+}

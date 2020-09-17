@@ -1,0 +1,165 @@
+[
+    {
+        "name": "Speak & Spell",
+        "band": "Depeche Mode",
+        "genre": "Synth-pop",
+        "label": "Mute",
+        "producer": [	
+            "Depeche Mode",
+            "Daniel Miller"
+        ],
+        "releaseDate": "05.10.1981"
+    },
+    {
+        "name": "A Broken Frame",
+        "band": "Depeche Mode",
+        "genre": "Synth-pop",
+        "label": "Mute",
+        "producer": [
+            "Depeche Mode",
+            "Daniel Miller"
+        ],
+        "releaseDate": "27.09.1982"
+    },
+    {
+        "name": "Construction Time Again",
+        "band": "Depeche Mode",
+        "genre": [
+            "Synth-pop",
+            "Industrial"
+        ],
+        "label": "Mute",
+        "producer": [
+            "Depeche Mode",
+            "Daniel Miller"
+        ],
+        "releaseDate": "22.08.1983"
+    },
+    {
+        "name": "Some Great Reward",
+        "band": "Depeche Mode",
+        "genre": [
+            "Synth-pop",
+            "Industrial"
+        ],
+        "label": "Mute",
+        "producer": [
+            "Depeche Mode",
+            "Daniel Miller",
+            "Gareth Jones"
+        ],
+        "releaseDate": "24.09.1984"
+    },
+    {
+        "name": "Black Celebration",
+        "band": "Depeche Mode",
+        "genre": "Synth-pop",
+        "label": "Mute",
+        "producer": [
+            "Depeche Mode",
+            "Daniel Miller",
+            "Gareth Jones"
+        ],
+        "releaseDate": "17.03.1986"
+    },
+    {
+        "name": "Music for the Masses",
+        "band": "Depeche Mode",
+        "genre": [
+            "Synth-pop",
+            "New wave"
+        ],
+        "label": "Mute",
+        "producer": [
+            "Depeche Mode",
+            "Daniel Miller",
+            "David Bascombe"
+        ],
+        "releaseDate": "28.09.1987"
+    },
+    {
+        "name": "Violator",
+        "band": "Depeche Mode",
+        "genre": [
+            "Synth-pop",
+            "Alternative rock"
+        ],
+        "label": "Mute",
+        "producer": [
+            "Depeche Mode",
+            "Flood"
+        ],
+        "releaseDate": "19.03.1990"
+    },
+    {
+        "name": "Songs of Faith and Devotion",
+        "band": "Depeche Mode",
+        "genre": "Synth-pop",
+        "label": "Mute",
+        "producer": [
+            "Depeche Mode",
+            "Flood"
+        ],
+        "releaseDate": "22.03.1993"
+    },
+    {
+        "name": "Ultra",
+        "band": "Depeche Mode",
+        "genre": "Synth-pop",
+        "label": "Mute",
+        "producer": "Tim Simenon",
+        "releaseDate": "14.04.1997"
+    },
+    {
+        "name": "Exciter",
+        "band": "Depeche Mode",
+        "genre": "Synth-pop",
+        "label": "Mute",
+        "producer": "Mark Bell",
+        "releaseDate": "14.05.2001"
+    },
+    {
+        "name": "Playing the Angel",
+        "band": "Depeche Mode",
+        "genre": "Synth-pop",
+        "label": "Mute",
+        "producer": "Ben Hillier",
+        "releaseDate": "13.10.2005"
+    },
+    {
+        "name": "Sounds of the Universe",
+        "band": "Depeche Mode",
+        "genre": [
+            "Synth-pop",
+            "Electro-rock"
+        ],
+        "label": "Mute",
+        "producer": "Ben Hillier",
+        "releaseDate": "17.04.2009"
+    },
+    {
+        "name": "Delta Machine",
+        "band": "Depeche Mode",
+        "genre": [
+            "Electropop",
+            "Industrial"
+        ],
+        "label": [
+            "Columbia",
+            "Mute"
+        ],
+        "producer": "Ben Hillier",
+        "releaseDate": "22.03.2013"
+    },
+    {
+        "name": "Spirit",
+        "band": "Depeche Mode",
+        "genre": "Synth-pop",
+        "label": [
+            "Columbia",
+            "Mute"
+        ],
+        "producer": "James Ford",
+        "releaseDate": "17.03.2017"
+    }
+]

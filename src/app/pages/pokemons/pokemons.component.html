@@ -1,0 +1,35 @@
+<div class="header">
+    <div id="title">Albums</div>
+    <div><span id="add" (click)="addPokemon()"><fa-icon [icon]="faPlusCircle" id="add-icon"></fa-icon>Add</span></div>
+</div>
+<div class="columns-name">
+    <span class="name">Name</span>
+    <span class="height">Height, dm</span>
+    <span class="weight">Weight, hg</span>
+    <span class="picture">Picture</span>
+    <span class="buttons"></span>
+</div>
+
+<div *ngIf="!loading else spinerBlock">
+<div *ngFor="let item of items" class="row">
+    <div class="name">{{ item.name | titlecase }}</div>
+    <div class="height">{{ item.height }}</div>
+    <div class="weight">{{ item.weight }}</div>
+    <div class="picture"><img src="{{item.img}}" alt=""></div>
+    <div class="buttons">
+        <span (click)="editPokemon(item)"><fa-icon [icon]="faPen" id="pen-icon"></fa-icon></span>
+        <span (click)="delPokemon(item)"><fa-icon [icon]="faTrashAlt" id="trash-icon"></fa-icon></span>
+    </div>
+</div>
+</div>
+
+<ng-template #spinerBlock>
+    <div class="sk-chase">
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+      </div>
+</ng-template>

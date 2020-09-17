@@ -1,0 +1,26 @@
+<h2 mat-dialog-title>Edit the album</h2>
+<p>All fields are required</p>
+<form [formGroup]="form" (ngSubmit)="submit()">
+   <mat-dialog-content>
+    <input placeholder="Name of album"
+       formControlName="name"  
+       type="text">
+    <input placeholder="Band" 
+       formControlName="band"
+       type="text">
+    <input placeholder="Genre" 
+       formControlName="genre"
+       type="text">
+    <input placeholder="Label" 
+       formControlName="label"
+       type="text">
+    <input placeholder="Producers" 
+       formControlName="producer"
+       type="text">
+   </mat-dialog-content>          
+
+   <mat-dialog-actions>
+      <button type="submit" mat-button mat-dialog-close [disabled]="!form.valid">Save changes</button>
+      <button mat-button mat-dialog-close>Cancel</button>
+   </mat-dialog-actions>
+</form>

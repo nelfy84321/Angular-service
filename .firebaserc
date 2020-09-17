@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "inventor-fifth-hw": {
+      "hosting": {
+        "angular-service-training": [
+          "inventor-fifth-hw"
+        ]
+      }
+    }
+  }
+}
